@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>virtual assistant</title>
+    <link rel="shortcut icon" href="img/logo.webp" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <style>
+    .marque {
+      width: max-content;
+      background: linear-gradient( 90deg,rgb(217, 255, 5),rgb(255, 1, 1),rgb(214, 12, 123));
+      -webkit-background-clip: text; /* Clips the background to the text */
+      -webkit-text-fill-color: transparent; /* Makes the text transparent to show the background */
+    }
+    .marque h3{
+        width: max-content;
+    }
+    @media (max-width: 320px){
+        #btn{
+            width: 70% ;
+        }
+    }
+    @media (max-width: 770px){
+        #btn{
+            width: 60% ;
+        }
+    }
+  </style>
+  <body>
+    <marquee behavior="smoooth" direction="" style="color: white; height: 50px">
+      <h3 class="marque">
+        I'm virtual assistant create by dawood developer
+      </h3>
+      </marquee>
+    <div id="main">
+      <img src="img/va.png" alt="virtual assistant" id="logo" />
+      <h1>
+        I'm <span id="name">jarves </span>Your<span id="va">
+          Virtual assistant</span
+        >
+      </h1>
+      <img src="" alt="" id="voice" />
+      <button id="btn">
+        <i class="bi bi-mic-fill"></i
+        ><span id="content">Click here for talk too me</span>
+      </button>
+      <img
+        src="img/voice1.gif"
+        class="voice1"
+        alt=""
+        width="200px"
+        height="200px"
+      />
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
